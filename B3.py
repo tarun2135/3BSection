@@ -5,7 +5,7 @@ def main():
     # Set page layout to wide (full screen)
     st.set_page_config(layout="wide")
 
-    file_path = r"C:\Users\lenovo\Desktop\hii\3BSection\Section - B.xlsx"
+    file_path = r"Section - B.xlsx"
     df = load_data(file_path)
     if df is not None:
         # Filter dataframe for Section B
